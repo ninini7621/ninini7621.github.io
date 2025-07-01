@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>设计师个人作品集</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar figma-navbar">
+        <div class="figma-nav-container">
+            <div class="figma-logo">
+                <a href="index.html" style="font-size:1.7rem;font-weight:700;letter-spacing:1px;">Figma风格</a>
+            </div>
+            <ul class="figma-nav-menu">
+                <li><a href="index.html">产品</a></li>
+                <li><a href="pages/about.html">解决方案</a></li>
+                <li><a href="pages/portfolio.html">社区</a></li>
+                <li><a href="pages/contact.html">资源</a></li>
+                <li><a href="#">定价</a></li>
+            </ul>
+            <div class="figma-nav-actions">
+                <a href="#" class="figma-btn-outline">联系客服人员</a>
+                <a href="#" class="figma-btn-primary">免费开始</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 主要内容区域 -->
+    <main class="main-content">
+        <!-- 首页横幅 -->
+        <section class="figma-hero">
+            <div class="figma-hero-left">
+                <h1 class="figma-hero-title">想得更大，<br>建设得更快。</h1>
+                <p class="figma-hero-desc">Figma 帮助设计和开发团队共同打造优秀的产品。</p>
+                <div class="figma-hero-actions">
+                    <a href="#" class="figma-btn-primary">免费开始</a>
+                    <a href="#" class="figma-btn-outline">联系客服人员</a>
+                </div>
+            </div>
+            <div class="figma-hero-right">
+                <img src="https://placehold.co/420x320?text=作品截图/插画" alt="作品截图" class="figma-hero-img">
+            </div>
+        </section>
+
+        <!-- 精选作品 -->
+        <section class="featured-works">
+            <div class="section-header">
+                <h2>精选作品</h2>
+                <p>最近完成的设计项目</p>
+            </div>
+            <div class="works-grid">
+                <article class="work-item">
+                    <div class="work-image">
+                        <img src="assets/img/WORK1.png" alt="项目一">
+                        <div class="work-title-overlay">ARTWORKS</div>
+                        <div class="work-subtitle-overlay">UI设计 / 用户体验</div>
+                    </div>
+                    <div class="work-info">
+                        <h3>ARTWORKS</h3>
+                        <p>UI设计 / 用户体验</p>
+                        <a href="pages/portfolio.html" class="work-link">查看详情</a>
+                    </div>
+                </article>
+                <article class="work-item">
+                    <div class="work-image">
+                        <img src="assets/img/WORK2.png" alt="项目二">
+                        <div class="work-title-overlay">PROJECT</div>
+                        <div class="work-subtitle-overlay">品牌设计 / 视觉识别</div>
+                    </div>
+                    <div class="work-info">
+                        <h3>PROJECT</h3>
+                        <p>品牌设计 / 视觉识别</p>
+                        <a href="pages/portfolio.html" class="work-link">查看详情</a>
+                    </div>
+                </article>
+                <article class="work-item">
+                    <div class="work-image">
+                        <img src="assets/img/WORK3.png" alt="项目三">
+                        <div class="work-title-overlay">ARTICLES</div>
+                        <div class="work-subtitle-overlay">移动应用 / 界面设计</div>
+                    </div>
+                    <div class="work-info">
+                        <h3>ARTICLES</h3>
+                        <p>移动应用 / 界面设计</p>
+                        <a href="pages/portfolio.html" class="work-link">查看详情</a>
+                    </div>
+                </article>
+                <article class="work-item">
+                    <div class="work-image">
+                        <img src="assets/img/WORK4.png" alt="项目四">
+                        <div class="work-title-overlay">POSTERS</div>
+                        <div class="work-subtitle-overlay">海报设计 / 平面创意</div>
+                    </div>
+                    <div class="work-info">
+                        <h3>POSTERS</h3>
+                        <p>海报设计 / 平面创意</p>
+                        <a href="pages/portfolio.html" class="work-link">查看详情</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- 贪吃蛇小游戏 -->
+        <section class="snake-section" style="text-align:center; padding: 60px 0 40px 0;">
+            <h2 style="font-size:2rem; font-weight:600; margin-bottom:18px;">贪吃蛇小游戏</h2>
+            <p style="color:#888; margin-bottom:18px;">使用方向键控制，刷新页面可重新开始</p>
+            <canvas id="snake-game" width="400" height="400" style="background:#222; border-radius:16px; box-shadow:0 4px 24px rgba(0,0,0,0.13);"></canvas>
+        </section>
+
+        <!-- 技能展示 -->
+        <section class="skills">
+            <div class="section-header">
+                <h2>专业技能</h2>
+                <p>设计工具与技能领域</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>设计工具</h3>
+                    <ul>
+                        <li>Figma</li>
+                        <li>Adobe XD</li>
+                        <li>Sketch</li>
+                        <li>Photoshop</li>
+                        <li>Illustrator</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>设计领域</h3>
+                    <ul>
+                        <li>用户界面设计</li>
+                        <li>用户体验设计</li>
+                        <li>品牌设计</li>
+                        <li>移动应用设计</li>
+                        <li>网页设计</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>其他技能</h3>
+                    <ul>
+                        <li>原型设计</li>
+                        <li>用户研究</li>
+                        <li>设计系统</li>
+                        <li>前端基础</li>
+                        <li>项目管理</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-info">
+                <p>&copy; 2024 设计师姓名. 保留所有权利.</p>
+            </div>
+            <div class="footer-links">
+                <a href="pages/about.html">关于</a>
+                <a href="pages/portfolio.html">作品</a>
+                <a href="pages/contact.html">联系</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html> 
